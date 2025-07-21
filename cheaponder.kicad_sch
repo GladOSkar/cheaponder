@@ -3175,6 +3175,19 @@
 		)
 		(uuid 8eb00efc-dad0-4024-bbe5-e6c891c2dc36)
 	)
+	(text "De-Solder LDO from ESP32!"
+		(exclude_from_sim no)
+		(at 98.806 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "154ccfb4-0a99-410a-9431-b63bba40f81e")
+	)
 	(text "Charging"
 		(exclude_from_sim no)
 		(at 113.538 86.36 0)
@@ -3251,7 +3264,7 @@
 		)
 		(uuid "de68ba9b-79d1-43dc-a0c3-7e8220810f86")
 	)
-	(text "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=ED25D392B281E2A0"
+	(text "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=E00DE86EFB21CDE4"
 		(exclude_from_sim no)
 		(at 173.736 107.442 0)
 		(effects
