@@ -1,7 +1,7 @@
 (footprint "pbwire"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "2d00a191-ea54-4b0f-a096-1e73c6a93cb9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "25fa1644-2919-4cff-a1f9-811d862881d3")
 		(effects
 			(font
 				(size 1 1)
@@ -82,7 +69,8 @@
 	(pad "1" smd oval
 		(at 0 0)
 		(size 5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ec2cf61a-9a9f-4c85-8452-a3f9769e7309")
 	)
+	(embedded_fonts no)
 )
